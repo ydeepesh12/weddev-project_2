@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <header id="main-header">
+        <h1 class="logo">My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" class="page-section">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img width="200" height="200" src="WhatsApp Image 2025-09-28 at 07.18.22.jpeg" alt="My Image">
+                <p>Hello! My name is Deepesh Yadav.</p>
+            </div>
+            <hr>
+        </section>
+
+        <section id="skills" class="page-section">
+            <h2>My Skills</h2>
+            <div class="skills-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Skill</th>
+                            <th>Level</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>HTML</td>
+                            <td>Beginner</td>
+                        </tr>
+                        <tr>
+                            <td>CSS</td>
+                            <td>Beginner</td>
+                        </tr>
+                        <tr>
+                            <td>JavaScript</td>
+                            <td>Learning</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <hr>
+        </section>
+
+        <section id="projects" class="page-section">
+            <h2>My Projects</h2>
+            <div class="project-card">
+                <h3>Project 1</h3>
+                <p>My personal portfolio webpage</p>
+            </div>
+            <div class="project-card">
+                <h3>Project 2</h3>
+                <p>A simple HTML & CSS webpage.</p>
+            </div>
+            <hr>
+        </section>
+
+        <section id="contact" class="page-section">
+            <h2>Contact Me</h2>
+            <form action="#" method="POST" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group textarea-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" placeholder="write your message" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <a href="#main-header" id="back-to-top">↑ Back to Top</a>
+
+    <footer>
+        <p>&copy; 2025 My Portfolio</p>
+    </footer>
+
+</body>
+</html>
